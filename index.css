@@ -86,10 +86,12 @@ img:hover{
 }
 
 /* Sidebar modules for boxing content */
+.blog-sidebar {
+	position:fixed;
+}
 .sidebar-module {
     padding: 15px;
     margin: 0 -15px 15px; 
-    position:fixed;
 }
 .sidebar-module-inset {
     padding: 15px;
