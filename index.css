@@ -89,13 +89,13 @@ img:hover{
 .sidebar-module {
     padding: 15px;
     margin: 0 -15px 15px;
-    position: absolute; 
+    position: fixed; 
 }
 .sidebar-module-inset {
     padding: 15px;
     background-color: #D1E0E0;
     border-radius: 4px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
