@@ -88,7 +88,7 @@ img:hover{
 /* Sidebar modules for boxing content */
 .blog-sidebar {
 	position:fixed;
-	margin-right: 0px; 
+	margin-left: 410px; 
 	
 }
 .sidebar-module {
