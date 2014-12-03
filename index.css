@@ -88,6 +88,8 @@ img:hover{
 /* Sidebar modules for boxing content */
 .blog-sidebar {
 	position:fixed;
+	margin: 0 -15px 15px; 
+	
 }
 .sidebar-module {
     padding: 15px;
