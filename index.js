@@ -19,6 +19,6 @@ var options = ['Post1', 'Post2', 'Post3', 'Post4'];
 function RP_button() {
   var RandomPost = document.getElementById(Random_Post());
   RandomPost.scrollIntoView(true);
-  return false;
+  click.preventDefault(Click);;
 }
 
