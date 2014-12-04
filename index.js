@@ -4,17 +4,18 @@
 var hold;
 
 function Random_Post() {
-var random_answer;
-random_answer = Math.random() * options.length;
-random_answer = Math.floor(random_answer);
-random_answer = options[random_answer];
-hold = random_answer;
-return random_answer;
+  var random_answer;
+  random_answer = Math.random() * options.length;
+  random_answer = Math.floor(random_answer);
+  random_answer = options[random_answer];
+  hold = random_answer;
+  return random_answer;
 }
 
 var options = ['Post1', 'Post2', 'POst3', 'Post4'];
 
-var RandomPost = document.getElementById(Random_Post());
-
-RandomPost.scrollIntoView(true);
+function RP_button() {
+  var RandomPost = document.getElementById(Random_Post());
+  document.getElementById('Post').innerHTML = 'Random Post';
+  RandomPost.scrollIntoView(true);
 
