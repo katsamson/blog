@@ -10,4 +10,5 @@ function random_post() {
     random_move = Math.floor(random_move);
     return random_move;
     document.getElementById('response').innerHTML = random_post();
+    
 }
