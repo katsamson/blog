@@ -1,7 +1,7 @@
 "use strict"; // This line chooses a JavaScript dialect, one that helps both jsLint (used in OrionHub) and browsers catch errors.
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
 
-var options = ['Our First Dog Clothing Post!', 'Our Second Dog Clothing Post!', 'Our Third Dog Clothing Post!', 'Our Fourth Dog Clothing Post!', 'Our First Dog Post!', 'Our Second Dog Post!', 'Our Third Dog Post!', 'Our Fourth Dog Post!', 'Our Fourth Dog Cooking Post!', 'Our Third Dog Cooking Post!','Our Second Dog Cooking Post!','Our First Dog Cooking Post!']
+var options = ['http://www.thedailydogblog.com/', 'http://www.alfiesblog.com/entlebucher-mountain-dogs-tips-training-humans/top-dog-blogs/', 'http://ohmydogblog.com/', 'http://campcookstown.com/dog-blogs/', 'http://herdogblog.com/', 'http://www.dogstardaily.com/blogs', 'http://www.lifewithdogs.tv/category/blog/','http://nodogaboutit.wordpress.com/','http://www.allthingsdogblog.com/']
 
 function random_post();
 	var random_move;
