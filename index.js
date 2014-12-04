@@ -1,7 +1,7 @@
 "use strict"; // This line chooses a JavaScript dialect, one that helps both jsLint (used in OrionHub) and browsers catch errors.
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
 
-document.getElementById('chh').addEventListener('click', RP_button);
+document.getElementById('Post').addEventListener('click', RP_button);
 
 var hold;
 
@@ -14,7 +14,7 @@ function Random_Post() {
   return random_answer;
 }
 
-var options = ['Post1', 'Post2', 'POst3', 'Post4'];
+var options = ['Post1', 'Post2', 'Post3', 'Post4'];
 
 function RP_button() {
   var RandomPost = document.getElementById(Random_Post());
