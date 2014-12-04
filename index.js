@@ -13,9 +13,10 @@ var options = ['http://www.thedailydogblog.com/', 'http://www.alfiesblog.com/ent
 
 //}
 function random_post() {
-	document.getElementById('response').innerHTML = random_post();
-    var random_move;
+	
+    var random_move
     random_move = Math.random() * options.length;
     random_move = Math.floor(random_move);
     return random_move;
+    document.getElementById('response').innerHTML = random_post();
 }
